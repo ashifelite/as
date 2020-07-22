@@ -1,0 +1,179 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+img{
+    max-width: 100%;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.header{
+    float: left;
+    width: 100%;
+    padding: 80px 0;
+    background: url('personal-website/header-bg.png') center no-repeat;
+    background-size: cover;
+}
+.header-content{
+    float: left;
+    width: 50%;
+    padding: 30px;
+}
+.header-content h2{
+    font-size: 28px;
+    color: #202428;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.header-content h3{
+    font-size: 45px;
+    color: #EC4C7A;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+}
+.header-content p{
+    color: #707070;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+.btn{
+    background: linear-gradient(45deg,#EC4F91, #EC4B75);
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 30px;
+    text-decoration: none;
+    margin-top: 40px;
+    border-radius: 5px;
+    display: inline-block;
+    border: 2px solid #EC4C7A;
+    font-weight: 500;
+    transition: .5s ease;
+}.btn:hover{
+    background: transparent;
+    color: #EC4C7A;
+}
+.biography{
+    float: left;
+    width: 100%;
+    padding: 80px 0;
+    background: url('personal-website/biography-bg.png') center no-repeat;
+    background-size: cover;
+}
+.biography-content{
+    float: left;
+    width: 50%;
+    padding: 30px;
+}
+.biography-content h3{
+    font-weight: 600;
+    font-size: 28px;
+    color: #202428;
+    text-transform: capitalize;
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+.biography-content p{
+    color: #707070;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.work{
+    margin-top: -1px;
+    float: left;
+    width: 100%;
+    padding: 80px 0;
+    background: url('personal-website/latest-work-bg.png') center no-repeat;
+    background-size: cover;
+}
+
+.gellary-item{
+    float: left;
+    width: 33.33%;
+    padding: 30px;
+}
+.gellary h2{
+    font-weight: 600;
+    font-size: 35px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #202428;
+    padding-bottom: 40px;
+}
+
+.client{
+    float: left;
+    width: 100%;
+    padding: 100px 0;
+    background: url('personal-website/footer-bg.png') center no-repeat;
+    background-size: cover;
+}
+.client-say{
+    text-align: center;
+}
+.client-say h2{
+    font-weight: 600;
+    font-size: 35px;
+    text-transform: capitalize;
+    color: #202428;
+    padding-bottom: 50px;
+}
+.client-say h4{
+    font-weight: 500;
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #202428;
+}
+.client-say h5{
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: capitalize;
+    color: #707070;
+    margin-bottom: 40px;
+}
+.client-say p{
+    font-size: 18px;
+    color: #202428;
+}
+.contact{
+    width: 700px;
+    background: linear-gradient(45deg,#EC4F91, #ED4B73);
+    padding: 30px;
+    color: #fff;
+    border-radius: 5px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+}
+.contact p{
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+.contact h4{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+
+footer p{
+    font-size: 18px;
+    color: #707070;
+    text-align: center;
+    padding: 25px 0;
+}
+.imgbx1 {
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    
+
+}
